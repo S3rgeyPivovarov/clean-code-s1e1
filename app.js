@@ -144,7 +144,7 @@ var taskIncomplete=function(){
 
 
 var ajaxRequest=function(){
-    console.log("AJAX Request");
+    console.log("AJAX Reques1");
 }
 
 //The glue to hold it all together.
@@ -152,7 +152,6 @@ var ajaxRequest=function(){
 
 //Set the click handler to the addTask function.
 addButton.onclick=addTask;
-addButton.addEventListener("click",addTask);
 addButton.addEventListener("click",ajaxRequest);
 
 
